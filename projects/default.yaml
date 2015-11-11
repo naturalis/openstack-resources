@@ -1,0 +1,28 @@
+project:
+  # Names
+  name: name a
+  groups:
+    - Rely
+  # quotas
+  quotas:
+    nova:
+      cores: 24
+      instances: 50
+      ram: 51200
+    cinder:
+      gigabytes: 512
+      volumes: 20
+      snapshots: 20
+    neutron:
+      network: 4
+      subnet: 8
+      port: 50
+      router: 2
+      security_group: 10
+      security_group_rule: 10
+      floatingip: 5
+  flavors:
+    - hpc.2c.2r.10h
+    - hpc.2c.4r.10h
+    - hpc.4c.2r.10h
+    - hpc.4c.4r.10h
