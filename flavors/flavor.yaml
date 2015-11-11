@@ -36,7 +36,7 @@ flavors:
     type: hpc
   - cpu: 2
     ram: 8
-    disk: 20
+    disk: 60
     type: hpc
   ### 4CPU HPC - 20 DISK
   - cpu: 4
@@ -97,15 +97,15 @@ flavors:
   ### 8CPU HPC - 40 DISK
   - cpu: 8
     ram: 4
-    disk: 20
+    disk: 40
     type: hpc
   - cpu: 8
     ram: 8
-    disk: 20
+    disk: 40
     type: hpc
   - cpu: 8
     ram: 16
-    disk: 20
+    disk: 40
     type: hpc
   - cpu: 8
     ram: 32
