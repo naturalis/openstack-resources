@@ -1,8 +1,8 @@
 project:
-  # Wijzigingsnummer W12
-  name: Project Name
+  # Wijziging W15110057
+  name: Ariantinae
   groups:
-    - group name
+    - "adsync - Character evolution"
   # quotas
   quotas:
     nova:
@@ -26,17 +26,23 @@ project:
     - hpc.2c.2r.40h
     - hpc.2c.2r.60h
     - hpc.2c.4r.20h
-    - hpc.2c.4r.40h
+    - hpc.2c.4r.20h
     - hpc.2c.4r.60h
-    - hpc.2c.8r.20h
-    - hpc.2c.8r.40h
+    - hpc.2c.8r.60h
+    - hpc.2c.8r.60h
     - hpc.2c.8r.60h
     - hpc.4c.4r.20h
-    - hpc.4c.4r.40h
-    - hpc.4c.4r.60h
     - hpc.4c.8r.20h
-    - hpc.4c.8r.40h
-    - hpc.4c.8r.60h
     - hpc.4c.16r.20h
+    - hpc.4c.4r.40h
+    - hpc.4c.8r.40h
     - hpc.4c.16r.40h
+    - hpc.4c.4r.60h
+    - hpc.4c.8r.60h
+    - hpc.4c.16r.60h
+    - hpc.4c.4r.40h
+    - hpc.4c.8r.40h
+    - hpc.4c.16r.40h
+    - hpc.4c.4r.60h
+    - hpc.4c.8r.60h
     - hpc.4c.16r.60h
