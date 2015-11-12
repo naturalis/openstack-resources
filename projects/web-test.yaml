@@ -1,16 +1,16 @@
 project:
-  # ICT-SNB infra project
-  name: foreman
+  # ICT-SNB servers provisioned from web-foreman-test
+  name: web-test
   groups: 
     - "foreman"
   # quotas
   quotas:
     nova:
-      cores: 20
-      instances: 10
-      ram: 65536
+      cores: 80
+      instances: 40
+      ram: 262144
     cinder:
-      gigabytes: 200
+      gigabytes: 800
       volumes: 10
       snapshots: 20
     neutron:
@@ -20,6 +20,8 @@ project:
       router: 2
       security_group: 10
       security_group_rule: 10
-      floatingip: 10
+      floatingip: 40
   flavors:
+    - ha_localdisk.1c.1r.20h
+    - ha_localdisk.2c.2r.20h
     - ha_localdisk.2c.4r.20h
