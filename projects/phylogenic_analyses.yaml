@@ -1,16 +1,16 @@
 project:
-  # Wijziging W15110057
-  name: Ariantinae
+  # Wijzigingsnummer W15110045
+  name: Phylogenetic Analyses
   groups:
-    - "adsync - Character evolution"
+    - "adsync - Next Generation Biodiversity Discovery"
   # quotas
   quotas:
     nova:
-      cores: 4
-      instances: 2
-      ram: 16384
+      cores: 24
+      instances: 3
+      ram: 32768
     cinder:
-      gigabytes: 100
+      gigabytes: 30
       volumes: 20
       snapshots: 20
     neutron:
