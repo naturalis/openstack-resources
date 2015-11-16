@@ -2,7 +2,7 @@ project:
   # Wijzigingsnummer W15110045
   name: Phylogenetic Analyses
   groups:
-    - "adsync - Next Generation Biodiversity Discovery"
+    - "adsync - Taxonomy and Systematics"
   # quotas
   quotas:
     nova:
