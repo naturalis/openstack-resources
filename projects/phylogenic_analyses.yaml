@@ -2,7 +2,7 @@ project:
   # Wijzigingsnummer W15110045
   name: Phylogenetic Analyses
   groups:
-    - "adsync - Next Generation Biodiversity Discovery"
+    - "adsync - Taxonomy and Systematics"
   # quotas
   quotas:
     nova:
@@ -40,3 +40,24 @@ project:
     - hpc.4c.16r.20h
     - hpc.4c.16r.40h
     - hpc.4c.16r.60h
+    - hpc.8c.4r.20h
+    - hpc.8c.4r.40h
+    - hpc.8c.4r.60h
+    - hpc.8c.8r.20h
+    - hpc.8c.8r.40h
+    - hpc.8c.8r.60h
+    - hpc.8c.16r.20h
+    - hpc.8c.16r.40h
+    - hpc.8c.16r.60h
+    - hpc.8c.32r.20h
+    - hpc.8c.32r.40h
+    - hpc.8c.32r.60h
+    - hpc.16c.8r.20h
+    - hpc.16c.8r.40h
+    - hpc.16c.8r.60h
+    - hpc.16c.16r.20h
+    - hpc.16c.16r.40h
+    - hpc.16c.16r.60h
+    - hpc.16c.32r.20h
+    - hpc.16c.32r.40h
+    - hpc.16c.32r.60h

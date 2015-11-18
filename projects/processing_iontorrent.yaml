@@ -1,5 +1,5 @@
 project:
-  # Wijzigingsnummer W15110045
+  # Wijzigingsnummer W15110054
   name: processing iontorrent
   groups:
     - "adsync - Laboratoria"
@@ -10,7 +10,7 @@ project:
       instances: 1
       ram: 32768
     cinder:
-      gigabytes: 160
+      gigabytes: 1000
       volumes: 20
       snapshots: 20
     neutron:
@@ -40,3 +40,15 @@ project:
     - hpc.4c.16r.20h
     - hpc.4c.16r.40h
     - hpc.4c.16r.60h
+    - hpc.8c.4r.20h
+    - hpc.8c.4r.40h
+    - hpc.8c.4r.60h
+    - hpc.8c.8r.20h
+    - hpc.8c.8r.40h
+    - hpc.8c.8r.60h
+    - hpc.8c.16r.20h
+    - hpc.8c.16r.40h
+    - hpc.8c.16r.60h
+    - hpc.8c.32r.20h
+    - hpc.8c.32r.40h
+    - hpc.8c.32r.60h
