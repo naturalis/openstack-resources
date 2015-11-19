@@ -1,6 +1,6 @@
 project:
   # Wijzigingsnummer W15110077
-  name: phd general
+  name: phd_general
   groups:
     - "adsync - Taxonomy and Systematics"
   # quotas
