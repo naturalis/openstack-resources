@@ -128,6 +128,10 @@ flavors:
     ram: 32
     disk: 60
     type: hpc
+  - cpu: 8
+    ram: 64
+    disk: 60
+    type: hpc
   ### 16CPU HPC - 20 DISK
   - cpu: 16
     ram: 8
