@@ -10,8 +10,8 @@ project:
       instances: 2
       ram: 524288
     cinder:
-      gigabytes: 60
-      volumes: 2000
+      gigabytes: 2000
+      volumes: 10
       snapshots: 60
     neutron:
       network: 4
@@ -40,4 +40,7 @@ project:
     - hpc.4c.16r.20h
     - hpc.4c.16r.40h
     - hpc.4c.16r.60h
-    - hpc_highmem.24c.500r.20h
+    - hpc_highmem.10c.500r.100h
+    - hpc_highmem.20c.500r.200h
+    - hpc_highmem.40c.500r.200h
+    - hpc_highmem.40c.500r.400h
