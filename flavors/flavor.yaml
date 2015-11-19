@@ -182,7 +182,13 @@ flavors:
     disk: 20
     type: ha_localdisk
 ### Specials
+# highmem server
   - cpu: 24
     ram: 500
     disk: 20
     type: hpc_highmem
+# treebase main server
+  - cpu: 8
+    ram: 32
+    disk: 120
+    type: ha_localdisk
