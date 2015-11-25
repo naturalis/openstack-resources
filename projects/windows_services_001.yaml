@@ -1,0 +1,29 @@
+project:
+  # ICT-SNB servers provisioned from web-foreman-xxx for use within AD child domain win01.ad.naturalis.nl
+  name: windows_services_001
+  groups: 
+    - "foreman"
+  # quotas
+  quotas:
+    nova:
+      cores: 100
+      instances: 50
+      ram: 393171
+    cinder: 
+      gigabytes: 102400
+      volumes: 50
+      snapshots: 20
+    neutron:
+      network: 4
+      subnet: 8
+      port: 50
+      router: 2
+      security_group: 10
+      security_group_rule: 10
+      floatingip: 50
+  flavors:
+    - ha_localdisk.1c.1r.20h
+    - ha_localdisk.2c.2r.20h
+    - ha_localdisk.2c.4r.20h
+    - ha_localdisk.2c.4r.60h
+    - ha_localdisk.2c.8r.20h
