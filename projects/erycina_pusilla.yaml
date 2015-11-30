@@ -44,3 +44,7 @@ project:
     - hpc_highmem.20c.500r.200h
     - hpc_highmem.40c.500r.200h
     - hpc_highmem.40c.500r.400h
+    - hpc_highmem.10c.450r.100h
+    - hpc_highmem.20c.450r.200h
+    - hpc_highmem.40c.450r.200h
+    - hpc_highmem.40c.450r.400h
