@@ -171,12 +171,16 @@ flavors:
     ram: 32
     disk: 60
     type: hpc
- ### 1CPU HA - 20 DISK
+ ### 1CPU HA
   - cpu: 1
     ram: 1
     disk: 20
     type: ha_localdisk
- ### 2CPU HA - 20 DISK
+  - cpu: 1
+    ram: 1
+    disk: 60
+    type: ha_localdisk
+ ### 2CPU HA 
   - cpu: 2
     ram: 2
     disk: 20
@@ -188,6 +192,10 @@ flavors:
   - cpu: 2
     ram: 8
     disk: 20
+    type: ha_localdisk
+  - cpu: 2
+    ram: 2
+    disk: 60
     type: ha_localdisk
  ### 4CPU HA - 20 DISK
   - cpu: 4
