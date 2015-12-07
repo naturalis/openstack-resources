@@ -233,3 +233,7 @@ flavors:
     ram: 32
     disk: 120
     type: ha_localdisk
+  - cpu: 8
+    ram: 16
+    disk: 120
+    type: ha_localdisk
