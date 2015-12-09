@@ -1,6 +1,6 @@
 project:
-  # Wijzigingsnummer A15120027
-  name: apexnomes
+  # Wijzigingsnummer A15120014
+  name: ArcGIS_species_distribution_modelling
   groups:
     - "adsync - Biodiversity Dynamics"
   # quotas
