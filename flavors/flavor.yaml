@@ -180,7 +180,7 @@ flavors:
     ram: 1
     disk: 60
     type: ha_localdisk
- ### 2CPU HA 
+ ### 2CPU HA
   - cpu: 2
     ram: 2
     disk: 20
@@ -209,6 +209,14 @@ flavors:
   - cpu: 4
     ram: 8
     disk: 20
+    type: ha_localdisk
+  - cpu: 4
+    ram: 4
+    disk: 20
+    type: ha_localdisk
+  - cpu: 4
+    ram: 8
+    disk: 40
     type: ha_localdisk
 ### Specials
 # highmem server
