@@ -218,6 +218,10 @@ flavors:
     ram: 8
     disk: 40
     type: ha_localdisk
+  - cpu: 4
+    ram: 16
+    disk: 40
+    type: ha_localdisk
 ### Specials
 # highmem server
   - cpu: 10
