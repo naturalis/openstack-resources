@@ -1,0 +1,34 @@
+project:
+  # Wijzigingsnummer W1600xxx
+  name: driebit
+  groups:
+    - "driebit"
+  # quotas
+  quotas:
+    nova:
+      cores: 4
+      instances: 2
+      ram: 16384
+    cinder:
+      gigabytes: 100
+      volumes: 2
+      snapshots: 10
+    neutron:
+      network: 4
+      subnet: 8
+      port: 50
+      router: 2
+      security_group: 5
+      security_group_rule: 50
+      floatingip: 2
+  flavors:
+    - ha_localdisk.2c.2r.20h
+    - ha_localdisk.2c.4r.20h
+
+
+
+
+
+
+
+
