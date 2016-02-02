@@ -19,8 +19,8 @@ project:
       subnet: 8
       port: 50
       router: 2
-      security_group: 10
-      security_group_rule: 100
+      security_group: 20
+      security_group_rule: 200
       floatingip: 50
   flavors:
     - ha_localdisk.1c.1r.20h
