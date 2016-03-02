@@ -186,7 +186,15 @@ flavors:
     disk: 20
     type: ha_localdisk
   - cpu: 2
+    ram: 2
+    disk: 40
+    type: ha_localdisk
+  - cpu: 2
     ram: 4
+    disk: 20
+    type: ha_localdisk
+  - cpu: 2
+    ram: 8
     disk: 20
     type: ha_localdisk
   - cpu: 2

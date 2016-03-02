@@ -1,16 +1,16 @@
 project:
-  # Wijzigingsnummer W15110102
-  name: Projectburo
+  # Wijzigingsnummer W16020021
+  name: Software Ontwikkeling
   groups: 
-    - "adsync - Projectburo"
+    - "adsync - Software Ontwikkeling"
   # quotas
   quotas:
     nova:
-      cores: 4
-      instances: 2
+      cores: 8
+      instances: 4
       ram: 16384
     cinder:
-      gigabytes: 100
+      gigabytes: 1024
       volumes: 20
       snapshots: 20
     neutron:
@@ -19,8 +19,8 @@ project:
       port: 50
       router: 2
       security_group: 10
-      security_group_rule: 10
-      floatingip: 10
+      security_group_rule: 40
+      floatingip: 4
   flavors:
     - ha_localdisk.1c.1r.20h
     - ha_localdisk.2c.2r.20h
