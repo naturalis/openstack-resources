@@ -84,7 +84,7 @@ flavors:
     ram: 64
     disk: 40
     type: hpc
-  - cpu:4
+  - cpu: 4
     ram: 128
     disk: 40
     type: hpc
