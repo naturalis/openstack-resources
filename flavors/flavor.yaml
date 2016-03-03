@@ -51,6 +51,18 @@ flavors:
     ram: 16
     disk: 20
     type: hpc
+  - cpu: 4
+    ram: 32
+    disk: 20
+    type: hpc
+  - cpu: 4
+    ram: 64
+    disk: 20
+    type: hpc
+  - cpu: 4
+    ram: 128
+    disk: 20
+    type: hpc
   ### 4CPU HPC - 40 DISK
   - cpu: 4
     ram: 4
@@ -64,6 +76,18 @@ flavors:
     ram: 16
     disk: 40
     type: hpc
+  - cpu: 4
+    ram: 32
+    disk: 40
+    type: hpc
+  - cpu: 4
+    ram: 64
+    disk: 40
+    type: hpc
+  - cpu:4
+    ram: 128
+    disk: 40
+    type: hpc
   ### 4CPU HPC - 60 DISK
   - cpu: 4
     ram: 4
@@ -75,6 +99,18 @@ flavors:
     type: hpc
   - cpu: 4
     ram: 16
+    disk: 60
+    type: hpc
+  - cpu: 4
+    ram: 32
+    disk: 60
+    type: hpc
+  - cpu: 4
+    ram: 64
+    disk: 60
+    type: hpc
+  - cpu: 4
+    ram: 128
     disk: 60
     type: hpc
   ### 8CPU HPC - 20 DISK
@@ -200,10 +236,6 @@ flavors:
   - cpu: 2
     ram: 4
     disk: 60
-    type: ha_localdisk
-  - cpu: 2
-    ram: 8
-    disk: 20
     type: ha_localdisk
   - cpu: 2
     ram: 2
