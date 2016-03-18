@@ -1,0 +1,27 @@
+project:
+  # Bioportal Project
+  name: bioportal_test
+  groups:
+    - "foreman"
+  # quotas
+  quotas:
+    nova:
+      cores: 60
+      instances: 20
+      ram: 252144
+    cinder:
+      gigabytes: 100
+      volumes: 20
+      snapshots: 20
+    neutron:
+      network: 1
+      subnet: 1
+      port: 50
+      router: 1
+      security_group: 10
+      security_group_rule: 100
+      floatingip: 20
+  flavors:
+    - ha_localdisk.2c.2r.20h
+    - ha_localdisk.4c.4r.20h
+    - ha_localdisk.4c.8r.20h
