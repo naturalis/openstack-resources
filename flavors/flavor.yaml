@@ -305,3 +305,9 @@ flavors:
     ram: 16
     disk: 120
     type: ha_localdisk
+# waarneming
+  - cpu: 4
+    ram: 64
+    disk: 120
+    type: ha_localdisk
+
