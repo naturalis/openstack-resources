@@ -6,8 +6,8 @@ project:
   # quotas
   quotas:
     nova:
-      cores: 32
-      instances: 4
+      cores: 40
+      instances: 10
       ram: 65536
     cinder:
       gigabytes: 1000
@@ -19,7 +19,7 @@ project:
       port: 50
       router: 2
       security_group: 10
-      security_group_rule: 10
+      security_group_rule: 20
       floatingip: 10
   flavors:
     - hpc.2c.2r.20h
@@ -52,3 +52,9 @@ project:
     - hpc.8c.32r.20h
     - hpc.8c.32r.40h
     - hpc.8c.32r.60h
+    - hpc.16c.8r.20h
+    - hpc.16c.8r.40h
+    - hpc.16c.8r.60h
+    - hpc.16c.16r.20h
+    - hpc.16c.16r.40h
+    - hpc.16c.16r.60h
