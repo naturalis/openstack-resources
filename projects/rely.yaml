@@ -1,0 +1,33 @@
+project:
+  # Project for Rely
+  name: rely
+  groups:
+    - "rely_external"
+  # quotas
+  quotas:
+    nova:
+      cores: 30
+      instances: 50
+      ram: 131072
+    cinder:
+      gigabytes: 1000
+      volumes: 50
+      snapshots: 20
+    neutron:
+      network: 8
+      subnet: 8
+      port: 50
+      router: 8
+      security_group: 20
+      security_group_rule: 200
+      floatingip: 24
+  flavors:
+    - ha_localdisk.1c.1r.20h
+    - ha_localdisk.2c.2r.20h
+    - ha_localdisk.2c.4r.20h
+    - ha_localdisk.2c.2r.60h
+    - ha_localdisk.1c.1r.60h
+    - ha_localdisk.2c.4r.60h
+    - ha_localdisk.2c.8r.20h
+    - ha_localdisk.4c.8r.60h
+    - ha_localdisk.4c.16r.60h
