@@ -1,14 +1,14 @@
 project:
   # Wijzigingsnummer W16020021
   name: Software Ontwikkeling
-  groups: 
+  groups:
     - "adsync - Software Ontwikkeling"
   # quotas
   quotas:
     nova:
-      cores: 8
-      instances: 4
-      ram: 16384
+      cores: 14
+      instances: 7
+      ram: 32768
     cinder:
       gigabytes: 1024
       volumes: 20
@@ -20,7 +20,7 @@ project:
       router: 2
       security_group: 10
       security_group_rule: 40
-      floatingip: 4
+      floatingip: 9
   flavors:
     - ha_localdisk.1c.1r.20h
     - ha_localdisk.2c.2r.20h
