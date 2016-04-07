@@ -2,7 +2,7 @@ project:
   # Wijzigingsnummer A15110187
   name: erycina_pusilla
   groups:
-    - "adsync - Character evolution"
+    - "adsync - Endless Forms"
   # quotas
   quotas:
     nova:

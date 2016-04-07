@@ -1,26 +1,26 @@
 project:
-  # Wijzigingsnummer A15110183
-  name: apexnomes
+  # Wijzigingsnummer W16030068
+  name: Image Analysis
   groups:
     - "adsync - Endless Forms"
   # quotas
   quotas:
     nova:
-      cores: 8
-      instances: 4
+      cores: 16
+      instances: 8
       ram: 65536
     cinder:
-      gigabytes: 400
-      volumes: 20
-      snapshots: 20
+      gigabytes: 100
+      volumes: 10
+      snapshots: 60
     neutron:
       network: 4
       subnet: 8
       port: 50
       router: 2
       security_group: 10
-      security_group_rule: 10
-      floatingip: 10
+      security_group_rule: 40
+      floatingip: 8
   flavors:
     - hpc.2c.2r.20h
     - hpc.2c.2r.40h
@@ -39,5 +39,13 @@ project:
     - hpc.4c.8r.60h
     - hpc.4c.16r.20h
     - hpc.4c.16r.40h
+    - hpc.4c.16r.20h
+    - hpc.4c.32r.20h
+    - hpc.4c.64r.20h
+    - hpc.4c.16r.40h
+    - hpc.4c.32r.40h
+    - hpc.4c.64r.40h
     - hpc.4c.16r.60h
-    - hpc.8c.64r.60h
+    - hpc.4c.32r.60h
+    - hpc.4c.64r.60h
+

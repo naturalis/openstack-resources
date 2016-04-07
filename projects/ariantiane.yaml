@@ -2,7 +2,7 @@ project:
   # Wijziging W15110057
   name: Ariantinae
   groups:
-    - "adsync - Character evolution"
+    - "adsync - Endless Forms"
   # quotas
   quotas:
     nova:
