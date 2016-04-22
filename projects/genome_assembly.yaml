@@ -2,7 +2,7 @@ project:
   # Wijzigingsnummer W1603003
   name: Genome assembly
   groups:
-    - "adsync - Character evolution"
+    - "adsync - Endless Forms"
   # quotas
   quotas:
     nova:

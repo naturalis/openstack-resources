@@ -1,18 +1,18 @@
 project:
-  # Wijzigingsnummer A15110183
-  name: apexnomes
+  # Wijzigingsnummer W16030069
+  name: Gastropod Transcriptomes
   groups:
     - "adsync - Endless Forms"
   # quotas
   quotas:
     nova:
-      cores: 8
-      instances: 4
-      ram: 65536
+      cores: 4
+      instances: 1
+      ram: 131072
     cinder:
-      gigabytes: 400
-      volumes: 20
-      snapshots: 20
+      gigabytes: 1000
+      volumes: 10
+      snapshots: 60
     neutron:
       network: 4
       subnet: 8
@@ -20,7 +20,7 @@ project:
       router: 2
       security_group: 10
       security_group_rule: 10
-      floatingip: 10
+      floatingip: 1
   flavors:
     - hpc.2c.2r.20h
     - hpc.2c.2r.40h
@@ -39,5 +39,15 @@ project:
     - hpc.4c.8r.60h
     - hpc.4c.16r.20h
     - hpc.4c.16r.40h
+    - hpc.4c.16r.20h
+    - hpc.4c.32r.20h
+    - hpc.4c.64r.20h
+    - hpc.4c.128r.20h
+    - hpc.4c.16r.40h
+    - hpc.4c.32r.40h
+    - hpc.4c.64r.40h
+    - hpc.4c.128r.40h
     - hpc.4c.16r.60h
-    - hpc.8c.64r.60h
+    - hpc.4c.32r.60h
+    - hpc.4c.64r.60h
+    - hpc.4c.128r.60h
