@@ -318,3 +318,8 @@ flavors:
     ram: 64
     disk: 120
     type: ha_localdisk
+# skyscan
+  - cpu: 16
+    ram: 64
+    disk: 120
+    type: ha_localdisk
