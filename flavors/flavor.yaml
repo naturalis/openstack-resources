@@ -147,6 +147,10 @@ flavors:
     ram: 32
     disk: 40
     type: hpc
+  - cpu: 8
+    ram: 64
+    disk: 40
+    type: hpc
   ### 8CPU HPC - 60 DISK
   - cpu: 8
     ram: 4
@@ -194,6 +198,10 @@ flavors:
     ram: 32
     disk: 40
     type: hpc
+  - cpu: 16
+    ram: 64
+    disk: 40
+    type: hpc
   ### 16CPU HPC - 60 DISK
   - cpu: 16
     ram: 8
@@ -205,6 +213,10 @@ flavors:
     type: hpc
   - cpu: 16
     ram: 32
+    disk: 60
+    type: hpc
+  - cpu: 16
+    ram: 64
     disk: 60
     type: hpc
  ### 1CPU HA
