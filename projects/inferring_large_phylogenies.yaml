@@ -39,17 +39,15 @@ project:
     - hpc.4c.8r.60h
     - hpc.4c.16r.20h
     - hpc.4c.16r.40h
-    - hpc.4c.16r.20h
-    - hpc.4c.32r.20h
-    - hpc.4c.64r.20h
-    - hpc.4c.16r.40h
-    - hpc.4c.32r.40h
-    - hpc.4c.64r.40h
-    - hpc.8c.64r.40h
-    - hpc.16c.64r.40h
     - hpc.4c.16r.60h
+    - hpc.4c.32r.20h
+    - hpc.4c.32r.40h
     - hpc.4c.32r.60h
+    - hpc.4c.64r.20h
+    - hpc.4c.64r.40h
     - hpc.4c.64r.60h
+    - hpc.8c.64r.40h
     - hpc.8c.64r.60h
+    - hpc.16c.64r.40h
     - hpc.16c.64r.60h
 
