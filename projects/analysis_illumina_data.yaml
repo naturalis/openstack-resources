@@ -1,12 +1,12 @@
 project:
-  # Wijzigingsnummer W16050032
-  name: Phylogenetics
+  # Wijzigingsnummer W16050042
+  name: Analysis Illumina Data
   groups:
-    - "adsync - Understanding evolution"
+    - "adsync - Marine Biodiversity"
   # quotas
   quotas:
     nova:
-      cores: 32
+      cores: 8
       instances: 4
       ram: 32768
     cinder:
