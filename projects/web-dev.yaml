@@ -22,6 +22,7 @@ project:
       security_group_rule: 100
       floatingip: 40
   flavors:
+    - hpc.2c.2r.20h
     - ha_localdisk.1c.1r.20h
     - ha_localdisk.2c.2r.20h
     - ha_localdisk.2c.4r.20h
