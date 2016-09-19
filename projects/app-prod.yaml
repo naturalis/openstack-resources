@@ -25,4 +25,5 @@ project:
     - ha_localdisk.1c.1r.20h
     - ha_localdisk.2c.2r.20h
     - ha_localdisk.2c.4r.20h
+    - ha_localdisk.2c.4r.60h
     - ha_localdisk.8c.32r.120h
