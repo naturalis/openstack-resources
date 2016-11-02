@@ -1,7 +1,7 @@
 project:
   # ICT-SNB servers provisioned from app-foreman-prod
   name: app-prod
-  groups: 
+  groups:
     - "foreman"
   # quotas
   quotas:
@@ -10,7 +10,7 @@ project:
       instances: 40
       ram: 262144
     cinder:
-      gigabytes: 800
+      gigabytes: 30000
       volumes: 10
       snapshots: 20
     neutron:
