@@ -219,6 +219,10 @@ flavors:
     ram: 64
     disk: 60
     type: hpc
+  - cpu: 16
+    ram: 128
+    disk: 60
+    type: hpc
  ### 1CPU HA
   - cpu: 1
     ram: 1
