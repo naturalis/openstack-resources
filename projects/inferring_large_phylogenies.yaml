@@ -10,7 +10,7 @@ project:
       instances: 2
       ram: 131072
     cinder:
-      gigabytes: 30
+      gigabytes: 128
       volumes: 10
       snapshots: 10
     neutron:
@@ -50,4 +50,5 @@ project:
     - hpc.8c.64r.60h
     - hpc.16c.64r.40h
     - hpc.16c.64r.60h
-
+    - hpc.16c.128r.60h
+    
