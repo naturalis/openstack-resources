@@ -6,11 +6,11 @@ project:
   # quotas
   quotas:
     nova:
-      cores: 30
-      instances: 9
-      ram: 65536
+      cores: 60
+      instances: 18
+      ram: 131072
     cinder:
-      gigabytes: 2024
+      gigabytes: 2048
       volumes: 20
       snapshots: 20
     neutron:
@@ -20,7 +20,7 @@ project:
       router: 2
       security_group: 10
       security_group_rule: 40
-      floatingip: 9
+      floatingip: 18
   flavors:
     - ha_localdisk.1c.1r.20h
     - ha_localdisk.2c.2r.20h
