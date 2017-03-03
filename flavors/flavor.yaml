@@ -321,6 +321,10 @@ flavors:
     ram: 2
     disk: 60
     type: ha_ceph
+  - cpu: 2
+    ram: 16
+    disk: 60
+    type: ha_ceph
  ### 4CPU HA
   - cpu: 4
     ram: 8
