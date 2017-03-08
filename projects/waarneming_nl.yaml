@@ -1,0 +1,34 @@
+project:
+  # Waarneming.nl
+  name: waarneming.nl
+  groups: 
+    - "foreman"
+  # quotas
+  quotas:
+    nova:
+      cores: 32
+      instances: 8
+      ram: 196608
+    cinder:
+      gigabytes: 5000
+      volumes: 10
+      snapshots: 10
+    neutron:
+      network: 4
+      subnet: 8
+      port: 8
+      router: 2
+      security_group: 10
+      security_group_rule: 100
+      floatingip: 8
+  flavors:
+    - ha_localdisk.1c.1r.20h
+    - ha_localdisk.2c.2r.20h
+    - ha_localdisk.2c.4r.20h
+    - ha_localdisk.4c.4r.120h
+    - ha_localdisk.8c.32r.120h
+    - ha_ubuntu_xenial.16c.64r.200h
+    - ha_ubuntu_xenial.2c.4r.20h
+    - ha_localdisk.4c.32r.60h
+    - ha_ceph.8c.64r.200h
+    - ha_ceph.4c.32r.60h
