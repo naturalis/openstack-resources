@@ -21,7 +21,7 @@ project:
       router: 2
       security_group: 50
       security_group_rule: 500
-      floatingip: 50
+      floatingip: 100
   flavors:
     - ha_localdisk.1c.1r.20h
     - ha_localdisk.2c.2r.20h
