@@ -1,7 +1,7 @@
 project:
   # Wijzigingsnummer Bij mij binnen gelopen... je weet wel
   name: ICTStaf
-  groups: 
+  groups:
     - "adsync - ICT Staf"
   # quotas
   quotas:
