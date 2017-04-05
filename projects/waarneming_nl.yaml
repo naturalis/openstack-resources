@@ -28,6 +28,7 @@ project:
     - ha_localdisk.4c.4r.120h
     - ha_localdisk.8c.32r.120h
     - ha_ubuntu_xenial.16c.64r.200h
+    - ha_ubuntu_xenial.16c.128r.200h
     - ha_ubuntu_xenial.2c.4r.20h
     - ha_localdisk.4c.32r.60h
     - ha_ceph.16c.64r.200h
