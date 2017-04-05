@@ -408,6 +408,10 @@ flavors:
     disk: 20
     type: ha_ubuntu_xenial
   - cpu: 8
+    ram: 32
+    disk: 60
+    type: ha_ubuntu_xenial
+  - cpu: 8
     ram: 64
     disk: 200
     type: ha_ubuntu_xenial
