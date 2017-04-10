@@ -356,6 +356,15 @@ flavors:
     type: ha_ceph
 
 ### Specials
+## win01
+  - cpu: 4
+    ram: 12
+    disk: 60
+    type: ha_ceph
+  - cpu : 4
+    ram: 12
+    disk: 60
+    type: ha_localdisk
 # highmem server
   - cpu: 10
     ram: 500

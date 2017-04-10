@@ -32,6 +32,7 @@ project:
     - ha_localdisk.2c.8r.20h
     - ha_localdisk.4c.8r.60h
     - ha_localdisk.16c.64r.120h
+    - ha_localdisk.4c.12r.60h
     - ha_ceph.1c.1r.20h
     - ha_ceph.2c.2r.20h
     - ha_ceph.2c.4r.20h
@@ -42,3 +43,4 @@ project:
     - ha_ceph.4c.8r.60h
     - ha_ceph.2c.16r.60h
     - ha_ceph.16c.64r.120h
+    - ha_ceph.4c.12r.60h
