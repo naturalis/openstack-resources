@@ -23,3 +23,5 @@ project:
       floatingip: 10
   flavors:
     - ha_localdisk.2c.4r.20h
+    - ha_localdisk.4c.8r.60h
+    - ha_ubuntu_xenial.4c.8r.60h
