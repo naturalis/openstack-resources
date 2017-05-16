@@ -354,6 +354,11 @@ flavors:
     ram: 16
     disk: 60
     type: ha_ceph
+ ### 8CPU HA
+  - cpu: 8
+    ram: 16
+    disk: 60
+    type: ha_ceph
 
 ### Specials
 ## win01

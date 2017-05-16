@@ -9,7 +9,7 @@ project:
     nova:
       cores: 200
       instances: 100
-      ram: 393171
+      ram: 524288
     cinder:
       gigabytes: 204800
       volumes: 75
@@ -42,5 +42,6 @@ project:
     - ha_ceph.2c.8r.20h
     - ha_ceph.4c.8r.60h
     - ha_ceph.2c.16r.60h
+    - ha_ceph.8c.16r.60h
     - ha_ceph.16c.64r.120h
     - ha_ceph.4c.12r.60h
