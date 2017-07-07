@@ -1,26 +1,26 @@
 project:
-  # Wijzigingsnummer W17030003
-  name: Image Recognition
+  # Wijzigingsnummer W17040045
+  name: Weidevolgels
   groups:
     - "adsync - Endless Forms"
   # quotas
   quotas:
     nova:
-      cores: 8
-      instances: 4
-      ram: 32768
+      cores: 12
+      instances: 3
+      ram: 65536
     cinder:
       gigabytes: 100
-      volumes: 20
-      snapshots: 20
+      volumes: 10
+      snapshots: 60
     neutron:
       network: 4
       subnet: 8
       port: 50
       router: 2
       security_group: 10
-      security_group_rule: 100
-      floatingip: 10
+      security_group_rule: 40
+      floatingip: 8
   flavors:
     - hpc.2c.2r.20h
     - hpc.2c.2r.40h
@@ -39,4 +39,13 @@ project:
     - hpc.4c.8r.60h
     - hpc.4c.16r.20h
     - hpc.4c.16r.40h
+    - hpc.4c.16r.20h
+    - hpc.4c.32r.20h
+    - hpc.4c.64r.20h
+    - hpc.4c.16r.40h
+    - hpc.4c.32r.40h
+    - hpc.4c.64r.40h
     - hpc.4c.16r.60h
+    - hpc.4c.32r.60h
+    - hpc.4c.64r.60h
+
