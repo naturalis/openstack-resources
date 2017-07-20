@@ -6,7 +6,7 @@ project:
   # quotas
   quotas:
     nova:
-      cores: 32
+      cores: 48
       instances: 12
       ram: 196608
     cinder:
@@ -26,6 +26,7 @@ project:
     - ha_localdisk.2c.2r.20h
     - ha_localdisk.2c.4r.20h
     - ha_localdisk.4c.4r.120h
+    - ha_localdisk.4c.8r.20h
     - ha_localdisk.8c.32r.120h
     - ha_localdisk.8c.64r.200h
     - ha_ubuntu_xenial.8c.64r.200h
