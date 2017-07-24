@@ -3,6 +3,7 @@ project:
   name: waarneming.nl
   groups: 
     - "foreman"
+    - "adsync - Fourtop"
   # quotas
   quotas:
     nova:
