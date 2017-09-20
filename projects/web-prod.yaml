@@ -20,7 +20,7 @@ project:
       router: 2
       security_group: 10
       security_group_rule: 100
-      floatingip: 40
+      floatingip: 80
   flavors:
     - ha_localdisk.1c.1r.20h
     - ha_localdisk.2c.2r.20h
