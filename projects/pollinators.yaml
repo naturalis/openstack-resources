@@ -6,9 +6,9 @@ project:
   # quotas
   quotas:
     nova:
-      cores: 16
+      cores: 32
       instances: 2
-      ram: 16384
+      ram: 32768
     cinder:
       gigabytes: 6144
       volumes: 10
