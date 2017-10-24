@@ -1,0 +1,26 @@
+project:
+  # Wijzigingsnummer A16110004
+  name: kubernetes-clusters
+  groups:
+    - "SNB"
+  # quotas
+  quotas:
+    nova:
+      cores: 100
+      instances: 50
+      ram: 327680
+    cinder:
+      gigabytes: 5000
+      volumes: 20
+      snapshots: 20
+    neutron:
+      network: 12
+      subnet: 12
+      port: 150
+      router: 50
+      security_group: 20
+      security_group_rule: 80
+      floatingip: 20
+  flavors:
+    - ha_localdisk.2c.8r.20h
+    - ha_localdisk.8c.32r.200h
