@@ -1,6 +1,6 @@
 project:
   # Project for Managed desktop clients
-  name: windows_services_001
+  name: beheerde_machines
   groups:
     - "foreman"
     - "KA"
