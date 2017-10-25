@@ -1,6 +1,6 @@
 project:
   # Wijzigingsnummer Bij mij binnen gelopen... je weet wel
-  name: 
+  name: boerhaave
   groups:
     - "foreman"
   # quotas
