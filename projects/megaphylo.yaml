@@ -1,13 +1,13 @@
 project:
-  # Wijzigingsnummer W16050042
-  name: Analysis Illumina Data
+  # Wijzigingsnummer W17080045
+  name: MegaPhylo
   groups:
-    - "adsync - Marine Biodiversity"
+    - "adsync - Understanding evolution"
   # quotas
   quotas:
     nova:
-      cores: 8
-      instances: 4
+      cores: 16
+      instances: 2
       ram: 32768
     cinder:
       gigabytes: 100
@@ -20,7 +20,7 @@ project:
       router: 2
       security_group: 10
       security_group_rule: 50
-      floatingip: 4
+      floatingip: 2
   flavors:
     - hpc.2c.2r.20h
     - hpc.2c.2r.40h
@@ -50,9 +50,5 @@ project:
     - hpc.8c.16r.40h
     - hpc.8c.16r.60h
     - hpc.8c.32r.60h
-    - hpc.16c.16r.20h
-    - hpc.16c.16r.40h
     - hpc.16c.16r.60h
     - hpc.16c.32r.60h
-
-

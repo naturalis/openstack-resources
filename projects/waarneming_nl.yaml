@@ -3,6 +3,7 @@ project:
   name: waarneming.nl
   groups: 
     - "foreman"
+    - "adsync - Fourtop"
   # quotas
   quotas:
     nova:
@@ -16,7 +17,7 @@ project:
     neutron:
       network: 4
       subnet: 8
-      port: 8
+      port: 20
       router: 2
       security_group: 10
       security_group_rule: 100
@@ -25,6 +26,7 @@ project:
     - ha_localdisk.1c.1r.20h
     - ha_localdisk.2c.2r.20h
     - ha_localdisk.2c.4r.20h
+    - ha_localdisk.4c.8r.20h
     - ha_localdisk.4c.4r.120h
     - ha_localdisk.8c.32r.120h
     - ha_ubuntu_xenial.8c.32r.60h
