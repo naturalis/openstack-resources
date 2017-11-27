@@ -276,6 +276,10 @@ flavors:
     type: ha_localdisk
   - cpu: 4
     ram: 4
+    disk: 60
+    type: ha_localdisk
+  - cpu: 4
+    ram: 4
     disk: 120
     type: ha_localdisk
   - cpu: 4
