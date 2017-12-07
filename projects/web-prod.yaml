@@ -6,17 +6,17 @@ project:
   # quotas
   quotas:
     nova:
-      cores: 160
-      instances: 80
+      cores: 200
+      instances: 100
       ram: 262144
     cinder:
-      gigabytes: 800
+      gigabytes: 2048
       volumes: 10
       snapshots: 20
     neutron:
       network: 4
       subnet: 8
-      port: 100
+      port: 120
       router: 2
       security_group: 10
       security_group_rule: 100
