@@ -8,9 +8,9 @@ project:
     nova:
       cores: 16
       instances: 2
-      ram: 32768
+      ram: 65536
     cinder:
-      gigabytes: 2000
+      gigabytes: 3072
       volumes: 10
       snapshots: 10
     neutron:
@@ -19,7 +19,7 @@ project:
       port: 50
       router: 1
       security_group: 10
-      security_group_rule: 10
+      security_group_rule: 100
       floatingip: 2
   flavors:
     - hpc.2c.2r.20h
