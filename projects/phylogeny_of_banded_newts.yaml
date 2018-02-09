@@ -1,0 +1,63 @@
+project:
+  # Wijzigingsnummer W18020012
+  name: Phylogeny of banded newts from the Near East
+  groups:
+    - "adsync - Taxonomy and Systematics"
+  # quotas
+  quotas:
+    nova:
+      cores: 8
+      instances: 2
+      ram: 32768
+    cinder:
+      gigabytes: 200
+      volumes: 10
+      snapshots: 10
+    neutron:
+      network: 4
+      subnet: 8
+      port: 50
+      router: 2
+      security_group: 10
+      security_group_rule: 10
+      floatingip: 2
+  flavors:
+    - hpc.2c.2r.20h
+    - hpc.2c.2r.40h
+    - hpc.2c.2r.60h
+    - hpc.2c.4r.20h
+    - hpc.2c.4r.40h
+    - hpc.2c.4r.60h
+    - hpc.2c.8r.20h
+    - hpc.2c.8r.40h
+    - hpc.2c.8r.60h
+    - hpc.4c.4r.20h
+    - hpc.4c.4r.40h
+    - hpc.4c.4r.60h
+    - hpc.4c.8r.20h
+    - hpc.4c.8r.40h
+    - hpc.4c.8r.60h
+    - hpc.4c.16r.20h
+    - hpc.4c.16r.40h
+    - hpc.4c.16r.60h
+    - hpc.8c.4r.20h
+    - hpc.8c.4r.40h
+    - hpc.8c.4r.60h
+    - hpc.8c.8r.20h
+    - hpc.8c.8r.40h
+    - hpc.8c.8r.60h
+    - hpc.8c.16r.20h
+    - hpc.8c.16r.40h
+    - hpc.8c.16r.60h
+    - hpc.8c.32r.20h
+    - hpc.8c.32r.40h
+    - hpc.8c.32r.60h
+    - hpc.16c.8r.20h
+    - hpc.16c.8r.40h
+    - hpc.16c.8r.60h
+    - hpc.16c.16r.20h
+    - hpc.16c.16r.40h
+    - hpc.16c.16r.60h
+    - hpc.16c.32r.20h
+    - hpc.16c.32r.40h
+    - hpc.16c.32r.60h
