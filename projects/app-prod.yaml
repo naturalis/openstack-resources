@@ -18,7 +18,7 @@ project:
       subnet: 8
       port: 100
       router: 2
-      security_group: 10
+      security_group: 20
       security_group_rule: 100
       floatingip: 40
   flavors:
