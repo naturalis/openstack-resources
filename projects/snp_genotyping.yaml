@@ -10,7 +10,7 @@ project:
       instances: 1
       ram: 32768
     cinder:
-      gigabytes: 250
+      gigabytes: 1274
       volumes: 10
       snapshots: 10
     neutron:
