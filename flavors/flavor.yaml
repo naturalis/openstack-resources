@@ -223,6 +223,14 @@ flavors:
     ram: 128
     disk: 60
     type: hpc
+  - cpu: 16
+    ram: 64
+    disk: 120
+    type: hpc
+  - cpu: 16
+    ram: 128
+    disk: 120
+    type: hpc
  ### 1CPU localdisk
   - cpu: 1
     ram: 1

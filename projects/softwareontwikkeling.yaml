@@ -8,7 +8,7 @@ project:
     nova:
       cores: 60
       instances: 18
-      ram: 131072
+      ram: 231072
     cinder:
       gigabytes: 2248
       volumes: 20
@@ -18,8 +18,8 @@ project:
       subnet: 8
       port: 50
       router: 2
-      security_group: 10
-      security_group_rule: 40
+      security_group: 15
+      security_group_rule: 80
       floatingip: 18
   flavors:
     - ha_localdisk.1c.1r.20h
