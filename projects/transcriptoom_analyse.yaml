@@ -1,25 +1,25 @@
 project:
-  # Wijzigingsnummer W16030012
-  name: genomics
+  # Wijzigingsnummer W18010061
+  name: Transcriptoom Analyse
   groups:
-    - "adsync - Next Generation Biodiversity Discovery"
+    - "adsync - Endless Forms"
   # quotas
   quotas:
     nova:
-      cores: 16
+      cores: 24
       instances: 2
-      ram: 65536
+      ram: 16384
     cinder:
-      gigabytes: 3072
+      gigabytes: 2048
       volumes: 10
       snapshots: 10
     neutron:
-      network: 1
-      subnet: 1
+      network: 4
+      subnet: 8
       port: 50
-      router: 1
+      router: 2
       security_group: 10
-      security_group_rule: 100
+      security_group_rule: 50
       floatingip: 2
   flavors:
     - hpc.2c.2r.20h
@@ -52,3 +52,12 @@ project:
     - hpc.8c.32r.20h
     - hpc.8c.32r.40h
     - hpc.8c.32r.60h
+    - hpc.16c.8r.20h
+    - hpc.16c.8r.40h
+    - hpc.16c.8r.60h
+    - hpc.16c.16r.20h
+    - hpc.16c.16r.40h
+    - hpc.16c.16r.60h
+    - hpc.16c.32r.20h
+    - hpc.16c.32r.40h
+    - hpc.16c.32r.60h

@@ -6,17 +6,17 @@ project:
   # quotas
   quotas:
     nova:
-      cores: 160
-      instances: 80
+      cores: 240
+      instances: 120
       ram: 262144
     cinder:
-      gigabytes: 800
+      gigabytes: 3072
       volumes: 10
       snapshots: 20
     neutron:
       network: 4
       subnet: 8
-      port: 100
+      port: 120
       router: 2
       security_group: 10
       security_group_rule: 100
@@ -26,6 +26,11 @@ project:
     - ha_localdisk.2c.2r.20h
     - ha_localdisk.2c.2r.60h
     - ha_localdisk.2c.4r.20h
+    - ha_localdisk.2c.4r.40h
+    - ha_localdisk.4c.4r.60h
     - ha_localdisk.4c.4r.120h
     - ha_localdisk.8c.32r.120h
+    - ha_localdisk.4c.8r.20h
+    - ha_localdisk.4c.8r.120h
     - ha_localdisk.8c.16r.120h
+    - ha_localdisk.8c.16r.200h

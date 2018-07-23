@@ -1,25 +1,25 @@
 project:
-  # Wijzigingsnummer W16030012
-  name: genomics
+  # Wijzigingsnummer W18030048
+  name: amazone
   groups:
-    - "adsync - Next Generation Biodiversity Discovery"
+    - "adsync - Biodiversity Dynamics"
   # quotas
   quotas:
     nova:
       cores: 16
       instances: 2
-      ram: 65536
+      ram: 131072
     cinder:
-      gigabytes: 3072
-      volumes: 10
-      snapshots: 10
+      gigabytes: 1000
+      volumes: 2
+      snapshots: 4
     neutron:
       network: 1
       subnet: 1
-      port: 50
+      port: 10
       router: 1
       security_group: 10
-      security_group_rule: 100
+      security_group_rule: 40
       floatingip: 2
   flavors:
     - hpc.2c.2r.20h
@@ -39,16 +39,16 @@ project:
     - hpc.4c.8r.60h
     - hpc.4c.16r.20h
     - hpc.4c.16r.40h
+    - hpc.4c.16r.20h
+    - hpc.4c.32r.20h
+    - hpc.4c.64r.20h
+    - hpc.4c.16r.40h
+    - hpc.4c.32r.40h
+    - hpc.4c.64r.40h
     - hpc.4c.16r.60h
-    - hpc.8c.4r.20h
-    - hpc.8c.4r.40h
-    - hpc.8c.4r.60h
-    - hpc.8c.8r.20h
-    - hpc.8c.8r.40h
-    - hpc.8c.8r.60h
-    - hpc.8c.16r.20h
-    - hpc.8c.16r.40h
-    - hpc.8c.16r.60h
-    - hpc.8c.32r.20h
-    - hpc.8c.32r.40h
-    - hpc.8c.32r.60h
+    - hpc.4c.32r.60h
+    - hpc.4c.64r.60h
+    - hpc.16c.128r.120h
+    - hpc.8c.128r.120h
+    - hpc.8c.64r.120h
+    - hpc.16c.64r.120h
