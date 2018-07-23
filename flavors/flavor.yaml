@@ -456,6 +456,10 @@ flavors:
     disk: 200
     type: ha_ceph
   - cpu: 8
+    ram: 64
+    disk: 300
+    type: ha_ceph
+  - cpu: 8
     ram: 32
     disk: 200
     type: ha_ceph
