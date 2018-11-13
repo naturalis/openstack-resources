@@ -1,6 +1,6 @@
 project:
   # Workshow
-  name: logging
+  name: workshop
   groups:
     - "workshop"
   # quotas

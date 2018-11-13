@@ -10,7 +10,7 @@ project:
       instances: 120
       ram: 262144
     cinder:
-      gigabytes: 3072
+      gigabytes: 307200
       volumes: 10
       snapshots: 20
     neutron:
@@ -18,8 +18,8 @@ project:
       subnet: 8
       port: 120
       router: 2
-      security_group: 10
-      security_group_rule: 100
+      security_group: 15
+      security_group_rule: 150
       floatingip: 80
   flavors:
     - ha_localdisk.1c.1r.20h
@@ -28,6 +28,7 @@ project:
     - ha_localdisk.2c.4r.20h
     - ha_localdisk.2c.4r.40h
     - ha_localdisk.4c.4r.60h
+    - ha_localdisk.8c.16r.40h
     - ha_localdisk.4c.4r.120h
     - ha_localdisk.8c.32r.120h
     - ha_localdisk.4c.8r.20h
