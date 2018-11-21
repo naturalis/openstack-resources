@@ -446,6 +446,25 @@ flavors:
     ram: 450
     disk: 400
     type: hpc_highmem
+
+# hpc avx
+  - cpu: 64
+    ram: 1440
+    disk: 700
+    type: hpc_avx
+  - cpu: 32
+    ram: 720
+    disk: 350
+    type: hpc_avx
+  - cpu: 24
+    ram: 512
+    disk: 350
+    type: hpc_avx
+  - cpu: 16
+    ram: 368
+    disk: 200
+    type: hpc_avx
+
 # treebase main server
   - cpu: 8
     ram: 32
