@@ -1,0 +1,50 @@
+project:
+  # Wijzigingsnummer  W18110049
+  name: HPC High Memory
+  groups:
+    - "adsync - HPC High Memory"
+  # quotas
+  quotas:
+    nova:
+      cores: 64
+      instances: 4
+      ram: 1495040
+    cinder:
+      gigabytes: 2000
+      volumes: 10
+      snapshots: 60
+    neutron:
+      network: 4
+      subnet: 8
+      port: 50
+      router: 2
+      security_group: 10
+      security_group_rule: 100
+      floatingip: 4
+  flavors:
+    - hpc.2c.2r.20h
+    - hpc.2c.2r.40h
+    - hpc.2c.2r.60h
+    - hpc.2c.4r.20h
+    - hpc.2c.4r.40h
+    - hpc.2c.4r.60h
+    - hpc.2c.8r.20h
+    - hpc.2c.8r.40h
+    - hpc.2c.8r.60h
+    - hpc.4c.4r.20h
+    - hpc.4c.4r.40h
+    - hpc.4c.4r.60h
+    - hpc.4c.8r.20h
+    - hpc.4c.8r.40h
+    - hpc.4c.8r.60h
+    - hpc.4c.16r.20h
+    - hpc.4c.16r.40h
+    - hpc.4c.16r.60h
+    - hpc_avx.64c.1460r.700h
+    - hpc_avx.32c.730r.350h
+    - hpc_avx.24c.512r.350h
+    - hpc_avx.16c.365r.200h
+    - hpc_highmem.10c.450r.100h
+    - hpc_highmem.20c.450r.200h
+    - hpc_highmem.40c.450r.200h
+    - hpc_highmem.40c.450r.400h
