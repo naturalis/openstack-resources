@@ -449,11 +449,11 @@ flavors:
 
 # hpc avx
   - cpu: 64
-    ram: 1440
+    ram: 1460
     disk: 700
     type: hpc_avx
   - cpu: 32
-    ram: 720
+    ram: 730
     disk: 350
     type: hpc_avx
   - cpu: 24
@@ -461,7 +461,7 @@ flavors:
     disk: 350
     type: hpc_avx
   - cpu: 16
-    ram: 368
+    ram: 365
     disk: 200
     type: hpc_avx
 
