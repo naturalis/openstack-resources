@@ -460,8 +460,12 @@ flavors:
     ram: 512
     disk: 350
     type: hpc_avx
+  - cpu: 48
+    ram: 1024
+    disk: 500
+    type: hpc_avx
   - cpu: 16
-    ram: 365
+    ram: 400
     disk: 200
     type: hpc_avx
 

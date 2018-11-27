@@ -40,10 +40,10 @@ project:
     - hpc.4c.16r.20h
     - hpc.4c.16r.40h
     - hpc.4c.16r.60h
-    - hpc_avx.64c.1460r.700h
+    - hpc_avx.48c.1024r.500h
     - hpc_avx.32c.730r.350h
     - hpc_avx.24c.512r.350h
-    - hpc_avx.16c.365r.200h
+    - hpc_avx.16c.400r.200h
     - hpc_highmem.10c.450r.100h
     - hpc_highmem.20c.450r.200h
     - hpc_highmem.40c.450r.200h
