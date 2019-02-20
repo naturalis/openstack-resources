@@ -1,0 +1,42 @@
+project:
+  # Wijziging W19020031
+  name: PhD Deyi Wang
+  groups:
+    - "adsync - Understanding Evolution"
+  # quotas
+  quotas:
+    nova:
+      cores: 8
+      instances: 4
+      ram: 32768
+    cinder:
+      gigabytes: 100
+      volumes: 20
+      snapshots: 20
+    neutron:
+      network: 4
+      subnet: 8
+      port: 50
+      router: 2
+      security_group: 10
+      security_group_rule: 10
+      floatingip: 2
+  flavors:
+    - hpc.2c.2r.20h
+    - hpc.2c.2r.40h
+    - hpc.2c.2r.60h
+    - hpc.2c.4r.20h
+    - hpc.2c.4r.40h
+    - hpc.2c.4r.60h
+    - hpc.2c.8r.20h
+    - hpc.2c.8r.40h
+    - hpc.2c.8r.60h
+    - hpc.4c.4r.20h
+    - hpc.4c.4r.40h
+    - hpc.4c.4r.60h
+    - hpc.4c.8r.20h
+    - hpc.4c.8r.40h
+    - hpc.4c.8r.60h
+    - hpc.4c.16r.20h
+    - hpc.4c.16r.40h
+    - hpc.4c.16r.60h
