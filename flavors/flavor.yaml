@@ -329,6 +329,10 @@ flavors:
     ram: 16
     disk: 120
     type: ha_localdisk
+ - cpu: 8
+    ram: 16
+    disk: 60
+    type: ha_localdisk
   - cpu: 8
     ram: 64
     disk: 120
@@ -531,6 +535,11 @@ flavors:
   - cpu: 16
     ram: 64
     disk: 120
+    type: ha_localdisk
+# kubespecials
+  - cpu: 8
+    ram: 64
+    disk: 500
     type: ha_localdisk
 # sql server
   - cpu: 4

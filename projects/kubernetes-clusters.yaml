@@ -24,3 +24,5 @@ project:
   flavors:
     - ha_localdisk.2c.8r.20h
     - ha_localdisk.8c.32r.200h
+    - ha_localdisk.8c.16r.60h
+    - ha_localdisk.8c.64r.500h
