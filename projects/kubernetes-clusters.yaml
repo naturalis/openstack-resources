@@ -8,7 +8,7 @@ project:
     nova:
       cores: 100
       instances: 50
-      ram: 327680
+      ram: 400000
     cinder:
       gigabytes: 5000
       volumes: 20
