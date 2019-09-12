@@ -1,0 +1,34 @@
+project:
+  # Wijzigingsnummer W19090001
+  name: ISBI
+  groups:
+    - "adsync - ISBI"
+  # quotas
+  quotas:
+    nova:
+      cores: 8
+      instances: 2
+      ram: 32768
+    cinder:
+      gigabytes: 100
+      volumes: 10
+      snapshots: 10
+    neutron:
+      network: 4
+      subnet: 8
+      port: 50
+      router: 2
+      security_group: 10
+      security_group_rule: 100
+      floatingip: 2
+  flavors:
+    - ha_localdisk.1c.1r.20h
+    - ha_localdisk.2c.2r.20h
+    - ha_localdisk.2c.2r.40h
+    - ha_localdisk.2c.4r.20h
+    - ha_localdisk.2c.8r.20h
+    - ha_localdisk.4c.4r.20h
+    - ha_localdisk.4c.8r.40h
+    - ha_localdisk.4c.8r.60h
+    - ha_localdisk.4c.16r.40h
+    - ha_localdisk.2c.4r.60h
